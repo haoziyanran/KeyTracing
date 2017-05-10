@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace OpenXML.TFS
+namespace OpenXML.WorkItem
 {
     using System;
     using System.Collections.Generic;
