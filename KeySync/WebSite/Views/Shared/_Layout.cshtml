@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>KeySync</title>
+    <!-- Bootstrap -->
+    <link href="@Url.Content("~/Content/css/bootstrap.min.css")" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="@Url.Content("~/Content/js/html5shiv.min.js")"></script>
+      <script src="@Url.Content("~/Content/js/respond.min.js")"></script>
+    <![endif]-->
+
+    <link href="@Url.Content("~/Content/css/datepicker.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/css/report.css")" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <img alt="Brand" src="@Url.Content("~/Content/logo_white.png")">
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul id="home_button" class="nav navbar-nav" style="display:none; margin-top:10px; float:right">
+            <li><a href="/">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+
+</body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="@Url.Content("~/Content/js/jquery.min.js")"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="@Url.Content("~/Content/js/bootstrap.min.js")"></script>
+
+    <script type="text/javascript" src="@Url.Content("~/Content/js/Chart.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/bootstrap-datepicker.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Content/js/Datepicker.js")"></script>
+
+
+</html>
