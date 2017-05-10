@@ -1,0 +1,57 @@
+DifferentPRAVerificationDescription	
+DifferentPRAVerificationId	1010
+DifferentPRAVerificationTitle	Different “PRA” value
+DifferenttRearrangedDescription	
+DifferenttRearrangedId	1310
+DifferenttRearrangedTitle	Different “Rearranged” value
+KeyTestLevelVerificationDescription	
+KeyTestLevelVerificationId	1901
+KeyTestLevelVerificationTitle	The key tested by is incorrect
+LocationEmptyVerificationDescription	Location value cannot be null.
+LocationEmptyVerificationId	1101
+LocationEmptyVerificationTitle	Location is empty
+NoTestCaseVerificationDescription	The key must have test unless when the key Rearranged is "Deferred" or "Terminated" the key have no test case is ok.
+NoTestCaseVerificationId	1201
+NoTestCaseVerificationTitle	The key have no any test case
+ParentRequirementVerificationDescription	RS has nothing traced from, SFS has 0 or 1 traced from, SSFS has 0 or 1 traced from, DS has 0 or 1 traced from
+ParentRequirementVerificationId	1401
+ParentRequirementVerificationTitle	The key has invalid traced from
+PlannedButNotRealizedVerificationDescription	Planned but not realized (both vertical and horizontal)
+PlannedButNotRealizedVerificationId	1701
+PlannedButNotRealizedVerificationTitle	Planned but not realized
+PRADifferentVerificationDescription	If a requirement's PRA value is "Yes", all of its related requirements or test cases' PRA value should be "Yes", vice versa.
+PRADifferentVerificationId	1001
+PRADifferentVerificationTitle	Different PRA value
+PRADifferentWithParentRequirementDescription	
+PRADifferentWithParentRequirementId	1004
+PRADifferentWithParentRequirementTitle	Differnet PRA with parent-requirement
+PRADifferentWithSubRequirmentDescription	
+PRADifferentWithSubRequirmentId	1002
+PRADifferentWithSubRequirmentTitle	Different PRA with sub-requirment
+PRADifferentWithTestCaseVerificationDescription	
+PRADifferentWithTestCaseVerificationId	1003
+PRADifferentWithTestCaseVerificationTitle	Different PRA with test case
+PRAEmptyVerificationDescription	PRA value cannot be null.
+PRAEmptyVerificationId	1001
+PRAEmptyVerificationTitle	PRA is emtpy
+RealizationButNotPlannedVerificationDescription	Realization but not planned (both vertical and horizontal)
+RealizationButNotPlannedVerificationId	1801
+RealizationButNotPlannedVerificationTitle	Realization but not planned
+RearrangedDifferentWithParentRequirementVerificationDescription	
+RearrangedDifferentWithParentRequirementVerificationId	1302
+RearrangedDifferentWithParentRequirementVerificationTitle	
+RearrangedDifferentWithSubRequirementVerificationDescription	
+RearrangedDifferentWithSubRequirementVerificationId	1301
+RearrangedDifferentWithSubRequirementVerificationTitle	
+RearrangedWithInvalidStatusDescription	If the rearranged is "Terminated" or "Deferred", Status is released is invalid otherwise is ok。
+RearrangedWithInvalidStatusId	1303
+RearrangedWithInvalidStatusTitle	Status should not be released when the key is "Terminated" or "Deferred".
+SourceVerificationDescription	
+SourceVerificationId	2001
+SourceVerificationTitle	The key traced from is incorrect
+StatusVerificationDescription	The right status of requirements and test cases should be "released".
+StatusVerificationId	1601
+StatusVerificationTitle	Wrong Status
+SubRequirementVerificationDescription	RS has 1-n SFS, SFS has 1-n SSFS, SSFS has 0-n DS, DS has nothing traced to
+SubRequirementVerificationId	1501
+SubRequirementVerificationTitle	Invalid traced to
